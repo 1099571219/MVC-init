@@ -1,0 +1,50 @@
+#app1 {
+    border: 1px solid red;
+    background-color: pink;
+    width: 50vw;
+    height: 50vh;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ol, ul {
+    list-style: none;
+}
+#app2 {
+    border: 1px solid red;
+}
+
+#app2 .tab-bar {
+    border: 2px solid black;
+    display: flex;
+}
+
+#app2 .tab-bar>li {
+    width: 50%;
+}
+
+#app2 .tab-bar>li.selected {
+    background-color: skyblue;
+    color: white;
+}
+
+#app2 .tab-content>li {
+    display: none;
+}
+
+#app2 .tab-content>li.active {
+    display: block;
+}
+body>.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body>.page>section {
+    width: 50vw;
+    height: 50vh;
+}
+/*# sourceMappingURL=index.a3bca2a6.css.map */

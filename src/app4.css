@@ -1,0 +1,26 @@
+#app4 {}
+
+@keyframes change {
+    0% {
+        background: pink;
+    }
+
+    100% {
+        background: skyblue;
+    }
+}
+
+#app4 .circle {
+    width: 30vw;
+    height: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35%;
+    transform: translateY(-50%);
+    background-color: pink;
+    border-radius: 50%;
+}
+
+#app4 .circle.active {
+    animation: change 1s infinite alternate linear;
+}
